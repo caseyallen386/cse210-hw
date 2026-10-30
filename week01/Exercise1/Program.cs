@@ -7,9 +7,9 @@ class Program
     static string lastName;
     static void Main(string[] args)
     {
-        Console.WriteLine("What is your first name?");
+        Console.Write("What is your first name? ");
         firstName = Console.ReadLine();
-        Console.WriteLine("What is your last name?");
+        Console.Write("What is your last name? ");
         lastName = Console.ReadLine();
 
         PrintName(firstName, lastName);
@@ -17,6 +17,6 @@ class Program
 
     static void PrintName(string first, string last)
     {
-        Console.WriteLine($"Your name is {last}, {first} {last}");
+        Console.WriteLine($"Your name is {last}, {first} {last}.");
     }
 }
