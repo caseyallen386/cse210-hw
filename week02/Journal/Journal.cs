@@ -3,12 +3,7 @@ using System.IO;
 using System.Security.Principal;
 
 
-/* 
-    in the Journal class I added the ability to save to the previous save without entering a new file name
 
-    I also checked to make sure that there will be a file name entered if the user doesn't enter one at first
-
-*/
 
 public class Journal
 {
