@@ -1,6 +1,14 @@
 using System;
 using System.ComponentModel.Design;
+/* 
+    in the Journal class I added the ability to save to the previous save without entering a new file name
 
+    I also checked to make sure that there will be a file name entered if the user doesn't enter one at first
+
+    I added a menu class to manage the menu and in the menu class I added some validation that allows the user 
+    to enter in either a number or the word and it will still choose the option.
+
+*/
 class Program
 {
     static void Main(string[] args)
